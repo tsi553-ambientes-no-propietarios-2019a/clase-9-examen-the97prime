@@ -8,7 +8,7 @@ if($_POST) {
 		$quantity = $_POST['quantity'];
 		$user = $_SESSION['user']['id'];
 
-		$sql_insert = "INSERT INTO product
+		$sql_insert = "INSERT INTO pedidos
 		(product, quantity)
 		VALUES ('$product','$quantity')";
 
